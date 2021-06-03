@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">MySelf Apps</string>
+    <string name="H1">HEADING</string>
+    <string name="D1">Description</string>
+    <string name="Daily">Daily</string>
+    <string name="Gallery">Gallery</string>
+    <string name="Music">Music</string>
+    <string name="Album">Album</string>
+    <string name="About">About</string>
+    <string name="Hobby">MY HOBBY</string>
+    <string name="Friend">MY FRIEND LIST</string>
+    <string name="DailyACT">MY DAILY ACTIVITY</string>
+    <string name="Want">I WANNA BE </string>
+    <string name="HiThere">Haloo. Saya Fiqri Akbar Pratama</string>
+    <string name="HiThere2">Saya Mahasiswa Teknik Informatika di Universitas Komputer Indonesia.</string>
+    <string name="myIG">If you want to closer with me, just visit my Facebook.</string>
+    <string name="findme">Or You can find me here</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="AboutAPK">ABOUT THIS APPS</string>
+    <string name="AboutSDK">SDK VERSION 29</string>
+    <string name="AboutVersion">APPS VERSION 1.0</string>
+    <string name="AboutApps">MY SELF APPS V1.0</string>
+
+    <string-array name="MusicTitle">
+        <item>Weird Genius - Lathi</item>
+        <item>Tulus - Monokrom</item>
+    </string-array>
+
+    <string-array name="AlbumName">
+        <item>Lathi</item>
+        <item>Monokrom</item>
+    </string-array>
+
+    <string-array name="DActivity">
+        <item>Bangun</item>
+        <item>Masuk Kelas</item>
+        <item>Istirahat</item>
+        <item>Main Game</item>
+        <item>Tidur</item>
+    </string-array>
+
+    <string-array name="DActivityTime">
+        <item>06.00</item>
+        <item>08.00 – 14.00</item>
+        <item>14.00 – 16.00</item>
+        <item>19.00 – 23.59</item>
+        <item>00.00 – 06.00</item>
+    </string-array>
+
+    <string name="title_activity_maps2">Map</string>
+    <string name="play_video">Play Video</string>
+</resources>

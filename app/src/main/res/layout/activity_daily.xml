@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:background="@drawable/slider_background"
+    tools:context=".DailyActivity">
+    <LinearLayout
+        android:id="@+id/Ly_FrList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Friend"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/Ms24"
+            android:layout_marginLeft="@dimen/Ms10"
+            android:layout_marginTop="@dimen/Ms10"
+            android:paddingBottom="@dimen/Ms10"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rcvFriend"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/Ms10"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/Ly_FrDaily"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="@dimen/Ms10"
+        android:layout_below="@+id/Ly_FrList">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/DailyACT"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/Ms24"
+            android:layout_marginLeft="@dimen/Ms10"
+            android:layout_marginTop="@dimen/Ms10"
+            android:paddingBottom="@dimen/Ms10"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:scrollbars="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        tools:listitem="@layout/list_item"
+            android:layout_marginTop="@dimen/Ms10" />
+
+    </LinearLayout>
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bot_nav"
+        app:itemBackground="@color/colorPrimary"
+        app:itemTextColor="@drawable/selector"
+        app:itemIconTint="@drawable/selector"
+        app:menu="@menu/menu_nav"
+        android:layout_alignParentBottom="true"/>
+</RelativeLayout>

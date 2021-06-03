@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="Ms_W_Splash">200dp</dimen>
+    <dimen name="Ms_H_Splash">600dp</dimen>
+    <dimen name="Ms_H_VPager">670dp</dimen>
+
+    <dimen name="Ms5">5dp</dimen>
+    <dimen name="Ms10">10dp</dimen>
+    <dimen name="Ms15">15dp</dimen>
+    <dimen name="Ms16">16dp</dimen>
+    <dimen name="Ms18">18dp</dimen>
+    <dimen name="Ms20">20dp</dimen>
+    <dimen name="Ms25">25dp</dimen>
+    <dimen name="Ms24">24dp</dimen>
+    <dimen name="Ms60">60dp</dimen>
+    <dimen name="Ms100">100dp</dimen>
+    <dimen name="Ms120">120dp</dimen>
+    <dimen name="Ms150">150dp</dimen>
+    <dimen name="Ms170">170dp</dimen>
+    <dimen name="Ms180">180dp</dimen>
+    <dimen name="Ms200">200dp</dimen>
+    <dimen name="Ms220">220dp</dimen>
+</resources>
